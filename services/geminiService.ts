@@ -8,7 +8,7 @@ declare const process: { env: { API_KEY: string } };
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 // Model Constants
-const MODEL_NAME = "gemini-2.5-flash";
+const MODEL_NAME = "gemini-2.5-flash-native-audio-dialog";
 
 // Token Management
 const MAX_CONTEXT_CHARS = 60000;
